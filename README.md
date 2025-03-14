@@ -38,11 +38,7 @@ from tensorflow.keras.datasets import cifar10
 print(f"Training Data Shape: {x_train.shape}, Labels: {y_train.shape}")
 print(f"Testing Data Shape: {x_test.shape}, Labels: {y_test.shape}")
 
----
-
 ## 🔄 Normalizing the CIFAR-10 Dataset
-
----
 
 ### **🔄 Why Normalize?**
 CIFAR-10 images have pixel values ranging from **[0, 255]**.  
